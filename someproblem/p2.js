@@ -1,1 +1,10 @@
-// Given an array of products, each with a category, separate them into two arrays: one for electronics and one for clothing. Store the result in an object.
+// Given a product price as a string (e.g., "249"), extract the numeric digits and calculate their sum.
+
+const productPrice = "249";
+let sum = 0;
+for(let i = 0; i < productPrice.length; i++) {
+     digit = parseInt(productPrice[i]);
+     sum += digit;
+}
+console.log(sum);
+
